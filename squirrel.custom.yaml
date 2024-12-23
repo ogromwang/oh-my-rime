@@ -1,0 +1,4 @@
+patch:
+  # 选择皮肤，亮色与暗色主题
+  "style/color_scheme": mint_dark_green
+  "style/color_scheme_dark": mint_dark_green
