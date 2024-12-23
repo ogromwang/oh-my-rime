@@ -1,0 +1,14 @@
+# "Control+Shift+C" 显示拆字
+patch:
+  # emoji 不在前面
+  "switches/@last":
+    name: emoji_suggestion
+    reset: 0
+    states: [ "😣️","😁️"]
+
+  # 小鹤音形提示配置
+  "axu_code/show_aux_notice": "always"
+
+  # 不编码转化为全拼
+  "translator/preedit_format": []
+
